@@ -1,0 +1,34 @@
+{
+  "name": "harvest-city-tweets-api",
+  "version": "1.0.0",
+  "description": "Using Koa, Twitter-API, GoogleMap-API for finding someone who tweets about some city.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": "git+https://github.com/nuSapb/harvest-city-tweets-api.git",
+  "author": "Anu S.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuSapb/harvest-city-tweets-api/issues"
+  },
+  "homepage": "https://github.com/nuSapb/harvest-city-tweets-api#readme",
+  "dependencies": {
+    "@koa/cors": "2",
+    "global": "^4.3.2",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-cors": "^0.0.16",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^1.18.10",
+    "oauth": "^0.9.15",
+    "request": "^2.88.0",
+    "twitter": "^1.7.1"
+  }
+}
